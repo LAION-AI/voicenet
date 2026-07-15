@@ -37,6 +37,16 @@ Each sample has an audio player, a radar profile of all 57 regression dimensions
 and vocal‑burst‑blend gauges, and a full per‑dimension table comparing the regression and
 classification predictions.
 
+### 🆕 v3 grid with procedural captions
+
+**→ [https://projects.laion.ai/voicenet/grid-v3/](https://projects.laion.ai/voicenet/grid-v3/)**
+
+Predictions from the **current best‑per‑dimension v3 models**, re‑run on the same 100 clips. Each
+card leads with a **procedural caption** — the 5 most distinctive dimensions for that voice,
+computed as the largest z‑score deviations from a **1000‑clip Emolia average** and phrased in plain
+English (e.g. *"Extremely full and cinematic."*, *"Very cartoonish and exaggerated."*). No taxonomy
+knowledge needed to read a voice at a glance.
+
 ---
 
 ## 📚 Documentation — table of contents
